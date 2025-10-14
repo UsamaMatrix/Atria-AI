@@ -364,6 +364,3 @@ assets/
     ├── dashboard-admin-light.png          # admin dashboard (light)
     └── dashboard-admin-dark.png           # admin dashboard (dark)
 ```
-
-> Tip: Keep screenshots ~1400px width for crisp README rendering.
-
