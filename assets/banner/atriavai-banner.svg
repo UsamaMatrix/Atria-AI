@@ -1,1 +1,64 @@
+<!-- AtriaAI Banner (SVG logo version) -->
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="400" viewBox="0 0 1600 400">
+  <defs>
+    <!-- Gradient background -->
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B1220"/>
+      <stop offset="100%" stop-color="#14213D"/>
+    </linearGradient>
 
+    <!-- Soft grid pattern -->
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#ffffff" stroke-opacity=".06"/>
+    </pattern>
+
+    <!-- Glow filter behind the logo -->
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="12" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1600" height="400" fill="url(#bg)"/>
+  <rect width="1600" height="400" fill="url(#grid)"/>
+
+  <!-- Left block: logo -->
+  <g transform="translate(140,80)">
+    <!-- Replace the href with your SVG logo path -->
+    <image href="../logo/atria-logo.svg" width="240" height="240" filter="url(#glow)" />
+  </g>
+
+  <!-- Right block: title + tagline -->
+  <g transform="translate(420,110)">
+    <!-- Title -->
+    <text x="0" y="0" font-family="Inter, Segoe UI, Roboto, Helvetica, Arial, sans-serif"
+          font-size="56" font-weight="700" fill="#E5F0FF" letter-spacing=".5">
+      AtriaAI
+    </text>
+
+    <!-- Subtitle -->
+    <text x="0" y="54" font-family="Inter, Segoe UI, Roboto, Helvetica, Arial, sans-serif"
+          font-size="24" font-weight="500" fill="#B7C7FF">
+      Intelligent Early Medical Diagnosis • Flask • ML • Bilingual (EN/UR)
+    </text>
+
+    <!-- Small meta row -->
+    <text x="0" y="104" font-family="Inter, Segoe UI, Roboto, Helvetica, Arial, sans-serif"
+          font-size="18" font-weight="400" fill="#94A3B8">
+      Self-assessment from symptoms & vitals → prediction, advice, and alerts
+    </text>
+  </g>
+
+  <!-- Corner accent -->
+  <g opacity=".18">
+    <circle cx="1480" cy="70" r="140" fill="#60A5FA"/>
+    <circle cx="1520" cy="110" r="90"  fill="#34D399"/>
+  </g>
+
+  <!-- Border (subtle) -->
+  <rect x="0.5" y="0.5" width="1599" height="399" fill="none" stroke="#ffffff" stroke-opacity=".08"/>
+</svg>
