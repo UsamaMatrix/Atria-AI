@@ -102,11 +102,9 @@ flowchart TD
 
 ## 🖼 Screenshots
 
-> Place these images under the listed paths; filenames are already referenced below.
-
 <p align="center">
-  <img src="assets/screens/login-light.png" width="45%" alt="Login (Light)">
-  <img src="assets/screens/login-dark.png"  width="45%" alt="Login (Dark)">
+  <img src="URAAN Pictures/0. Home Page.png" width="45%" alt="Login (Light)">
+  <img src="URAAN Pictures/0. New Patient or Admin registration form.png"  width="45%" alt="Login (Dark)">
 </p>
 
 <p align="center">
