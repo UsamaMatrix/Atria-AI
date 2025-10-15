@@ -108,8 +108,18 @@ flowchart TD
 </p>
 
 <p align="center">
-  <img src="assets/screens/dashboard-patient-light.png" width="45%" alt="Patient Dashboard (Light)">
-  <img src="assets/screens/dashboard-patient-dark.png"  width="45%" alt="Patient Dashboard (Dark)">
+  <img src="URAAN Pictures/10. Admin Login.png" width="45%" alt="Patient Dashboard (Light)">
+  <img src="URAAN Pictures/101. Admin Logged In.png"  width="45%" alt="Patient Dashboard (Dark)">
+</p>
+
+<p align="center">
+  <img src="" width="45%" alt="Admin Dashboard (Light)">
+  <img src="assets/screens/dashboard-admin-dark.png"  width="45%" alt="Admin Dashboard (Dark)">
+</p>
+
+<p align="center">
+  <img src="assets/screens/dashboard-admin-light.png" width="45%" alt="Admin Dashboard (Light)">
+  <img src="assets/screens/dashboard-admin-dark.png"  width="45%" alt="Admin Dashboard (Dark)">
 </p>
 
 <p align="center">
